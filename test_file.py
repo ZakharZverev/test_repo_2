@@ -6,6 +6,8 @@ class User:
         self.languages=languages
         self.sex=sex
         self.age=age
+    def description(self):
+        print(f'{self.name, self.surname} is our student!')
 
 User1=['Nika', 'Kuznetsova', 1, ["english",'french'], 'Female', 31]
 User2=['Kolya', 'Veselov', 2, ['german'], 'Male', 22]
