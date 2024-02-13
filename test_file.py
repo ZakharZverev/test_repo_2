@@ -1,3 +1,5 @@
+import random
+
 class User:
     def __init__(self, name, surname, ID, languages, sex, age):
         self.name=name
@@ -12,3 +14,7 @@ class User:
 User1=['Nika', 'Kuznetsova', 1, ["english",'french'], 'Female', 31]
 User2=['Kolya', 'Veselov', 2, ['german'], 'Male', 22]
 
+def rename(user):
+    global name, surname
+    user.name=str(input())
+    user.surname=str(input())
